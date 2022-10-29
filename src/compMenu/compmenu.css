@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainrouting {
+    background: rgba(0, 0, 0, 0.8);
+    height: 50px;
+}
+
+.parent-nav {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+    height: 50px;
+}
+
+.apple-icon {
+    color: aliceblue;
+    font-size: 18px;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: darkgray;
+    position: relative;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+
+.navbar-link::after {
+    content: '';
+    position: absolute;
+    background-color: rgb(192, 179, 204);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.navbar-link:hover::after {
+    width: 100%;
+}
+
+.Applehome {
+    background-image: url(./imgcompMenu/graphite.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.Applehome h1 {
+    text-align: center;
+    padding: 150px 0px;
+    font-size: 50px;
+}
+
+.Mac {
+    background-image: url(./imgcompMenu/intro__ewz1ro7xs14y_large.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 100vh;
+}
+
+.Ipad {
+    background-color: black;
+}
+
+.parent-text-img {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ipadimg {
+    margin-top: 170px;
+}
+
+.text-img {
+    display: flex;
+    align-items: center;
+}
+
+.text-img span {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.parent-Phone {
+    text-align: center;
+    margin: 100px 0px;
+}
+
+.title-Onlyapphone {
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+    max-width: 700px;
+    font-size: 35px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: -0.014em;
+}
+
+.title-Onlyapphone p {
+    margin-top: 30px;
+    color: #86868b;
+    font-size: 25px;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+}
