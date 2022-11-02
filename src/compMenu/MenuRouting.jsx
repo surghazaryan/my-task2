@@ -6,6 +6,7 @@ import Navbar from './Navbar';
 import Phone from './iPhone';
 import Onlyapphone from './Onlyapphone';
 import Ipad from './Ipad';
+import Support from './Support';
 
 
 
@@ -20,6 +21,7 @@ export default function MenuRouting() {
                     <Route path='/Ipad' element={<Ipad/>}/>
                     <Route path='/Phone' element={<Phone />} />
                     <Route path='/Onlyapphone' element={<Onlyapphone />} />
+                    <Route path='/Support' element={<Support/>}/>
                 </Routes>
             </BrowserRouter>
         </div>

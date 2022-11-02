@@ -13,6 +13,7 @@ export default function Navbar() {
                     <li><Link to='/Ipad' className='navbar-link'>iPad</Link></li>
                     <li><Link to='/Phone' className='navbar-link'>iPhone</Link></li>
                     <li><Link to='/Onlyapphone' className='navbar-link'>Only on Apple</Link></li>
+                    <li><Link to='/Support' className='navbar-link'>Support</Link></li>
                 </ul>
             </nav>
         </div>

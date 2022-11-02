@@ -117,3 +117,18 @@
     height: 100%;
     margin-top: 100px;
 }
+
+.Support{
+    background-image: url(./imgcompMenu/psp-hero-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 540px;
+}
+
+.Support h1{
+    text-align: center;
+    color: white;
+   padding-top: 160px;
+   padding-left: 220px;
+   font-size: 40px;
+}
