@@ -1,0 +1,95 @@
+
+.container{
+    background-color: blueviolet;
+    height: 100vh;
+}
+
+.container-input {
+    display: flex;
+    justify-content: center;
+   padding-top: 50px;
+  
+}
+
+.banner-form{
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    border-radius: 15px;
+}
+
+.banner-form h3{
+    text-align: center;
+    margin-top: 10px;
+   
+}
+
+.parent-form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+   margin-left: 55px;
+   margin-top: 50px;
+  
+}
+
+.parent-form input{
+   margin: 30px;
+   border-radius: 10px;
+   height: 30px;
+   border: none;
+   box-shadow: 0 0 5pt 0.5pt #999898;
+   outline: none;
+   padding: 5px 10px 5px 50px;
+}
+
+.btn-login{
+    width: 150px;
+    height: 30px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-image: linear-gradient(to bottom right, rgb(151, 84, 217), rgb(53, 63, 210));
+    color: white;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.parent-label{
+    margin: 0 auto;
+}
+
+.parent-label label {
+    color: red;
+}
+
+.parent-login-user-icon{
+    position: relative;
+}
+.login-user-icon{
+    position: absolute;
+    left: 39px;
+    top: 36px;
+    font-size: 26px;
+    color: blueviolet;
+}
+
+.login-psw-icon{
+    position: absolute;
+    left: 40px;
+    top: 35px;
+    font-size: 26px;
+    color: blueviolet;
+}
+
+.icon-eye{
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    color: blueviolet;
+}
+
+.psw{
+  color: red;
+}
